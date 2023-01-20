@@ -1,0 +1,15 @@
+<label>Give Name</label>
+<!--<input type="text"
+(input)="onCreateName($event)"
+class="form-control" placeholder="Username" aria-label="Username">-->
+<input type="text"
+[(ngModel)]="inputName"
+class="form-control" placeholder="Username" aria-label="Username">
+
+<h2>{{inputName}}</h2>
+<button type="button" class="btn btn-primary"
+[disabled]="!allowNewServer"
+(click)="onCreateService()"
+>Primary</button>
+<h3>zanjabil ben khedher</h3>
+<p style="color: red;">{{createServiceStatus}}</p>
