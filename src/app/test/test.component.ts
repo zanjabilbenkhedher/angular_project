@@ -7,5 +7,13 @@ import { Component } from '@angular/core';
 })
 export class TestComponent {
   username='';
+  createStatus=false;
+  
+
+onCreateUsername(){
+  this.createStatus=true;
+
+
+}
 
 }
