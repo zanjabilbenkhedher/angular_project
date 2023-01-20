@@ -1,0 +1,16 @@
+<div class="container" style="margin-top: 20px;">
+    <div class="row">
+        <div class="col-xs-12">
+            <input type="text" class="form-control" id="floatingInput"
+             placeholder="Username"
+             [(ngModel)]="username"
+             >
+
+             <h2>My name is {{username}}</h2>
+             <button type="button" class="btn btn-warning" [disabled]="username ==='' " 
+             (click)="username=''"
+             >Reset name</button>
+        </div>
+        
+    </div>
+</div>

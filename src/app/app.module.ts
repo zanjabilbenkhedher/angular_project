@@ -5,6 +5,7 @@ import { ServerComponent } from './server/server.component';
 import { ServersComponent } from './servers/servers.component';
 import { NavbarComponent } from './navbar/navbar.component';
 import { FormsModule } from '@angular/forms';
+import { TestComponent } from './test/test.component';
 
 @NgModule({
   declarations: [
@@ -12,6 +13,7 @@ import { FormsModule } from '@angular/forms';
     ServerComponent,
     ServersComponent,
     NavbarComponent,
+    TestComponent,
     
   ],
   imports: [
