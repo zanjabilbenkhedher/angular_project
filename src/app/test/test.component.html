@@ -10,7 +10,7 @@
             <button type="button" class="btn btn-warning" [disabled]="username ==='' " 
              (click)="username=''"
              >Reset name</button>-->
-             <button type="button" class="btn btn-warning" [disabled]="username ==='' " 
+             <button style="margin-top: 20px;" type="button" class="btn btn-warning" [disabled]="username ==='' " 
              (click)="onCreateUsername()"
              >Add person</button>
              <p *ngIf="createStatus ; else Status">My name is {{username}}</p>
